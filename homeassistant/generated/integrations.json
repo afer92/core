@@ -3768,6 +3768,12 @@
       "config_flow": true,
       "iot_class": "local_push"
     },
+    "openplantbook": {
+      "name": "OpenPlantbook",
+      "integration_type": "service",
+      "config_flow": true,
+      "iot_class": "cloud_polling"
+    },
     "open_meteo": {
       "name": "Open-Meteo",
       "integration_type": "service",
@@ -3827,12 +3833,6 @@
       "integration_type": "hub",
       "config_flow": false,
       "iot_class": "local_polling"
-    },
-    "openplantbook": {
-      "name": "OpenPlantbook",
-      "integration_type": "service",
-      "config_flow": true,
-      "iot_class": "cloud_polling"
     },
     "opensensemap": {
       "name": "openSenseMap",
