@@ -3828,6 +3828,12 @@
       "config_flow": false,
       "iot_class": "local_polling"
     },
+    "openplantbook": {
+      "name": "OpenPlantbook",
+      "integration_type": "service",
+      "config_flow": true,
+      "iot_class": "cloud_polling"
+    },
     "opensensemap": {
       "name": "openSenseMap",
       "integration_type": "hub",
