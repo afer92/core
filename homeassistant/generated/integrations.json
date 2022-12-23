@@ -817,6 +817,12 @@
       "name": "ColorExtractor",
       "integration_type": "hub",
       "config_flow": false
+    },```
+    "comapsmarthome": {
+      "name": "ComapSmartHome",
+      "integration_type": "hub",
+      "config_flow": true,
+      "iot_class": "cloud_polling"
     },
     "comed_hourly_pricing": {
       "name": "ComEd Hourly Pricing",
